@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QFunctionIndicatorWnd</class>
+ <widget class="QMainWindow" name="QFunctionIndicatorWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1450</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Function-Indicator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1450</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>添加函数</string>
+    </property>
+    <addaction name="m_Add_NormalFunc"/>
+    <addaction name="m_Add_PolarFunc"/>
+    <addaction name="m_Add_TwoFuc"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>修改函数</string>
+    </property>
+    <addaction name="m_Alter_Func"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>删除函数</string>
+    </property>
+    <addaction name="m_Del_Func"/>
+    <addaction name="m_Del_AllFunc"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="m_Set_XY_Range"/>
+    <addaction name="m_Set_Move"/>
+    <addaction name="m_Set_Single"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>显示</string>
+    </property>
+    <addaction name="m_Show_Edge"/>
+    <addaction name="m_Show_Axis"/>
+    <addaction name="m_Show_Grid"/>
+    <addaction name="m_Show_FuncInfo"/>
+    <addaction name="m_Show_FuncList"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="m_View_StatusBar"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="m_Add_NormalFunc">
+   <property name="text">
+    <string>普通函数</string>
+   </property>
+  </action>
+  <action name="m_Add_PolarFunc">
+   <property name="text">
+    <string>极坐标函数</string>
+   </property>
+  </action>
+  <action name="m_Add_TwoFuc">
+   <property name="text">
+    <string>参数方程函数</string>
+   </property>
+  </action>
+  <action name="m_Del_Func">
+   <property name="text">
+    <string>删除一个函数</string>
+   </property>
+  </action>
+  <action name="m_Del_AllFunc">
+   <property name="text">
+    <string>删除全部函数</string>
+   </property>
+  </action>
+  <action name="m_Alter_Func">
+   <property name="text">
+    <string>修改函数参数</string>
+   </property>
+  </action>
+  <action name="m_Set_XY_Range">
+   <property name="text">
+    <string>设置X-Y显示范围</string>
+   </property>
+  </action>
+  <action name="m_Set_Move">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>移动模式</string>
+   </property>
+  </action>
+  <action name="m_Set_Single">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>单函数</string>
+   </property>
+  </action>
+  <action name="m_Show_Edge">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>边框</string>
+   </property>
+  </action>
+  <action name="m_Show_Axis">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>坐标轴</string>
+   </property>
+  </action>
+  <action name="m_Show_Grid">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>网格</string>
+   </property>
+  </action>
+  <action name="m_Show_FuncInfo">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>函数信息</string>
+   </property>
+  </action>
+  <action name="m_Show_FuncList">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>函数列表</string>
+   </property>
+  </action>
+  <action name="m_View_ToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>工具栏</string>
+   </property>
+  </action>
+  <action name="m_View_StatusBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>状态栏</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
