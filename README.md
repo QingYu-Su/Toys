@@ -3,3 +3,4 @@
 
 # 项目列表
 1. [SqyMathTools](./SqyMathTools/): 使用了MFC和QT制作的简易版数学工具箱，包含一个数学计算器和一个函数图像显示器
+2. [7days-golang](./7days-golang/): 使用golang实现的简易框架，主要参考自[七天用Go从零实现系列](https://geektutu.com/post/gee.html)
