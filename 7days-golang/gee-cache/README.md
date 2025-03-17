@@ -1,6 +1,6 @@
 # 项目说明
 
-项目教学地址：[7天用Go从零实现Web框架Gee教程](https://geektutu.com/post/gee.html)
+项目教学地址：[7天用Go从零实现分布式缓存GeeCache](https://geektutu.com/post/geecache.html)
 
 ## 第1天
 1. 实现lru缓存淘汰策略，使用字典和双向链表实现，该策略存放在lru包内

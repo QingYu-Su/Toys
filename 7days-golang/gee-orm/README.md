@@ -1,6 +1,6 @@
 # 项目说明
 
-项目教学地址：[7天用Go从零实现Web框架Gee教程](https://geektutu.com/post/gee.html)
+项目教学地址：[7天用Go从零实现ORM框架GeeORM](https://geektutu.com/post/geeorm.html)
 
 ## 第1天
 1. 实现简单的log库，对外开放4个接口：Error，Errorf，Info，Infof，并且可以通过SetLevel设置日志级别，Info表示显示所有日志，Error表示只显示错误日志，Disable表示不显示日志。
